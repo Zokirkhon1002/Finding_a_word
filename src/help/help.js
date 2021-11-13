@@ -19,7 +19,7 @@ export function checkWin(correct, wrong, word){
 
 
 // check for lose
-if(wrong.length===11){
+if(wrong.length===10){
     status = 'lose'
 }
 return status;
